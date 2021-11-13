@@ -1,0 +1,142 @@
+[
+  {
+    "pk": 1,
+    "model": "book.book",
+    "fields": {
+      "title": "The Boy Who Steals Houses",
+      "description": "Sam is only fifteen but he and his autistic older brother, Avery, have been abandoned by every relative he's ever known. Now Sam's trying to build a new life for them. He survives by breaking into empty houses when their owners are away, until one day he's caught out when a family returns home. To his amazement this large, chaotic family takes him under their wing - each teenager assuming Sam is a friend of another sibling. Sam finds himself inextricably caught up in their life, and falling for the beautiful Moxie. But Sam has a secret, and his past is about to catch up with him.",
+      "author": "C.G. Drews",
+      "published_date": "2019-04-04",
+      "price": 6.55,
+      "category": 1,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/TheBoyWhoStealsHouses.jpg",
+      "image": "TheBoyWhoStealsHouses.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "book.book",
+    "fields": {
+      "title": "John Wick",
+      "description": "When a young John Wick embarks upon an epic vendetta, he comes up against a strange, powerful community of assassins and must learn how to master the rules that guide their lethal business. What are the Three Bills? Who is Calamity? And why is John Wick seeking vengeance?",
+      "author": "Greg Pak",
+      "published_date": "2020-07-07",
+      "price": 17.99,
+      "category": 2,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/JohnWick.jpg",
+      "image": "JohnWick.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "book.book",
+    "fields": {
+      "title": "The War of the Worlds",
+      "description": "When an army of invading Martians lands in England, panic and terror seize the population. As the aliens traverse the country in huge three-legged machines, incinerating all in their path with a heat ray and spreading noxious toxic gases, the people of the Earth must come to terms with the prospect of the end of human civilization and the beginning of Martian rule.Inspiring films, radio dramas, comic-book adaptations, television series and sequels,The War of the Worlds is a prototypical work of science fiction which has influenced every alien story that has come since, and is unsurpassed in its ability to thrill, well over a century since it was first published.",
+      "author": "H.G. Wells",
+      "published_date": "2017-04-21",
+      "price": 4.49,
+      "category": 3,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/TheWaroftheWorlds.jpg",
+      "image": "TheWaroftheWorlds.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "book.book",
+    "fields": {
+      "title": "The Mist",
+      "description": "Following a freak summer storm, David Drayton, his son Billy, and their neighbour Brent Norton join dozens of others and head to the local grocery store to replenish supplies.",
+      "author": "Stephen King",
+      "published_date": "2021-09-09",
+      "price": 6.29,
+      "category": 4,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/TheMist.jpg",
+      "image": "TheMist.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "book.book",
+    "fields": {
+      "title": "Steve Jobs A Biography",
+      "description": "The death of Steve Jobs has shocked the world. After interviewing him more than forty times in the last two years, as well as a hundred people around him, family, friends, adversaries and colleagues, Walter Isaacson presents the only biography written with the collaboration of Jobs, the definitive portrait of one of the undisputed icons of our time, the chronicle of the hectic life and abrasive personality of the genius whose creativity, energy and desire for perfectionism revolutionized six industries computers, animated films, music, telephony, tablets and digital publishing",
+      "author": "Walter Isaacson",
+      "published_date": "2019-08-20",
+      "price": 12.32,
+      "category": 5,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/SteveJobs.jpg",
+      "image": "SteveJobs.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "book.book",
+    "fields": {
+      "title": "The Girl of Ink & Stars",
+      "description": "When her friend disappears, she volunteers to guide the search. The world beyond the walls is a monster-filled wasteland – and beneath the dry rivers and smoking mountains, a fire demon is stirring from its sleep.",
+      "author": "Kiran Millwood Hargrave",
+      "published_date": "2016-05-05",
+      "price": 5.94,
+      "category": 1,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/TheGirlofInkStars.jpg",
+      "image": "TheGirlofInkStars.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "book.book",
+    "fields": {
+      "title": "Better Off Dead",
+      "description": "Minutes later Reacher is heading into the nearby border town, a backwater that has seen better days. Next to him is Michaela Fenton, an army veteran turned FBI agent, who is trying to find her twin brother. He might have got mixed up with some dangerous people.",
+      "author": "Lee Child",
+      "published_date": "2021-10-26",
+      "price": 10.00,
+      "category": 2,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/BetterOffDead.jpg",
+      "image": "BetterOffDead.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "book.book",
+    "fields": {
+      "title": "Star Wars: The Fallen Star",
+      "description": "Time and again, the vicious raiders known as the Nihil have sought to bring the golden age of the High Republic to a fiery end. Time and again, the High Republic has emerged battered and weary, but victorious thank to its Jedi protectors-and there is no monument to their cause grander than the Starlight Beacon.",
+      "author": "Claudia Gray",
+      "published_date": "2022-01-04",
+      "price": 17.60,
+      "category": 3,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/StarWars.jpg",
+      "image": "StarWars.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "book.book",
+    "fields": {
+      "title": "The Conjuring",
+      "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+      "author": "John Ketchum",
+      "published_date": "2021-09-09",
+      "price": 7.26,
+      "category": 4,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/TheConjuring.jpg",
+      "image": "TheConjuring.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "book.book",
+    "fields": {
+      "title": "Jeff Bezos A Biography",
+      "description": "He had a loving family and attended the best schools. After working at a few different companies, he moved westward with his wife. There, he founded Amazon and never looked back. Amazon, today, is one of the largest tech companies.",
+      "author": "Patrick Evans",
+      "published_date": "2020-05-20",
+      "price": 4.07,
+      "category": 5,
+      "image_url": "https://8000-amber-locust-64tkapbn.ws-eu18.gitpod.io/media/JeffBezos.jpg",
+      "image": "JeffBezos.jpg"
+    }
+  }
+]

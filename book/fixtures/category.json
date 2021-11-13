@@ -1,0 +1,41 @@
+[
+  {
+    "pk": 1,
+    "model": "book.category",
+    "fields": {
+      "name": "Drama",
+      "friendly_name": "Drama"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "book.category",
+    "fields": {
+      "name": "Action",
+      "friendly_name": "Action"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "book.category",
+    "fields": {
+      "name": "SciFi",
+      "friendly_name": "SciFi"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "book.category",
+    "fields": {
+      "name": "Horror",
+      "friendly_name": "Horror"
+    }
+  },{
+    "pk": 5,
+    "model": "book.category",
+    "fields": {
+      "name": "Biography",
+      "friendly_name": "Biography"
+    }
+  }
+]

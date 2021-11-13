@@ -6,5 +6,34 @@
         <h1>All Books<i class="fas fa-book-reader"></i></h1>
     </header>
 
+    <div class="row">
+        {% for books in book %}
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="card h-100 border-0">
+                    <img class="card-img-top img-fluid" src="{{ books.image.url }}" alt="{{ books.title }}">
+                    <div class="card-body pb-0">
+                        <p class="mb-0">{{ books.title }}</p>
+                    </div>
+                    <div class="card-footer bg-white pt-0 border-0 text-left">
+                        <div class="row">
+                            <div class="col">
+                                <p class="lead mb-0 text-left font-weight-bold">${{ books.price }}</p>
+                                {% if books.category %}
+                                <p class="small mt-1 mb-0">
+                                    <a href="{% url 'books' %}?category={{ books.category.name }}">
+                                        <i class="fas fa-tag mr-1"></i>{{ books.category.friendly_name }}
+                                    </a>
+                                </p>
+                                {% endif %}
+                                    <p>{{ books.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
 
 {% endblock %}
